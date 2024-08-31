@@ -3,11 +3,10 @@ const buttonTwo = document.querySelector(".buttonTwo");
 
 buttonTwo.addEventListener('click', function (event) {
 
-    // Se não estiver no modo alternativo, segue o fluxo principal
     contador++;
     switch (contador) {
         case 1:
-            pContainerIA.innerHTML = "Correto pois a gaymificação é um processo mais atraente  e estimula mudanças comportamentais ao integrar a aprendizagem com a aplicação prática do cotidiano do aluno e o uso de tecnologias. ."
+            pContainerIA.innerHTML = "Correto pois a gamificação é um processo mais atraente  e estimula mudanças comportamentais ao integrar a aprendizagem com a aplicação prática do cotidiano do aluno e o uso de tecnologias."
             buttonOne.innerHTML = "Como a IA aprende?"
             buttonTwo.innerHTML = "Quais as desvantagens da inteligência artificial";
             break;
@@ -18,7 +17,7 @@ buttonTwo.addEventListener('click', function (event) {
             console.log(contador);
             break;
         case 3:
-            pContainerIA.innerHTML = "funcionou"
+            pContainerIA.innerHTML = ""
             buttonTwo.style.display = "block"
             console.log("botao funcionou")
             break;
