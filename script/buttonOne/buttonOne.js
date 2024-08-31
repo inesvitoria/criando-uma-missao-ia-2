@@ -12,8 +12,8 @@ buttonOne.addEventListener('click', function (event) {
     contador++
     switch (contador) {
         case 1:
-            pContainerIA.innerHTML = "   Errado pois a gaymificação é um processo mais atraente  e estimula mudanças comportamentais ao integrar a aprendizagem com a aplicação prática do cotidiano do aluno e o uso de tecnologias. ."
-            buttonOne.innerHTML = 'Entendi...E como você pode ajudar na gaymificação?'
+            pContainerIA.innerHTML = "Errado pois a gamificação é um processo mais atraente e estimula mudanças comportamentais ao integrar a aprendizagem com a aplicação prática do cotidiano do aluno e o uso de tecnologias."
+            buttonOne.innerHTML = 'Entendi...E como você pode ajudar na gamificação?'
             buttonTwo.innerHTML = "Como a IA pode ajudar no dia a dia?"
             console.log(contador)
             break;
@@ -31,12 +31,10 @@ buttonOne.addEventListener('click', function (event) {
             break;
         case 4:
             pContainerIA.innerHTML = "Controle de estoque de produtos nas empresas... Através de monitoramento por sensores inteligentes, eles conseguem identificar os espaços vazios nas prateleiras, favorecendo a organização dos produtos e mercadorias.";
-            buttonOne.innerHTML = "Voltar ao inicio";
+            buttonOne.innerHTML = "Retornar ao inicio";
             buttonTwo.style.display = "block";  // Oculta o botãoTwo
             buttonTwo.innerHTML = "Finalizar"
             console.log(contador);
-            // Se você deseja mostrar o botãoTwo novamente depois de ocultá-lo, defina como "block" ou "inline"
-            // buttonTwo.style.display = "block"; 
             break;
         case 5:
             location.reload(); // Recarrega a página
